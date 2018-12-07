@@ -1,0 +1,15 @@
+body{
+  background-color: #c9a66b;
+  color: #662e1c;
+}
+
+.nombre{
+  color: #af4425;
+  text-align: left;
+  text-decoration: underline;
+  font-family: verdana;
+}
+
+.titulo{
+  text-align: center;
+}
