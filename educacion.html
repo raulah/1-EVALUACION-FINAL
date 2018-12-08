@@ -11,10 +11,10 @@
   </head>
   <body>
     <header>
+      <h1 class="titulo">CURRICULUM VITAE</h1>
       <svg height="250" width="250">
         <image xlink:href="imagenes/firma.svg" height="250" width="250">
       </svg>
-      <h1><p>CURRICULUM VITAE</p></h1>
     </header>
     <article>
       <h2 class="nombre">RAUL ARIGUZNAGA HERNANDEZ</h2>
@@ -25,14 +25,14 @@
       <a href="index.html">CURRICULUM VITAE</a> | <a href="experiencia.html">EXPERIENCIA</a>
     </nav>
     <article class="">
-      <h2>EDUCACION</h2>
+      <h2 id="titulo">EDUCACION</h2>
       <table border="1" cellpadding="10" cellspacing="3">
         <thead><!-- Para poner un titulo a la tabla -->
           <tr>
-            <th>ANIO</th>
-            <th>INSTITUCION</th>
+            <th>AÑO</th>
+            <th>INSTITUCIÓN</th>
             <th>LUGAR</th>
-            <th>CULMINO?</th>
+            <th>¿CULMINÓ?</th>
           </tr>
         </thead>
           <tr>
@@ -57,12 +57,15 @@
       <form>
         <fieldset><!-- Para poner un marco al formulario-->
           <legend>Agregar Estudios</legend>
-            <label for="age">Anio</label>
+            <label for="age">Año</label>
               <select name="age">
-                <option value="year"></option>
+                <option value="year" multiple="year">2015</option>
+                <option value="year" multiple="year">2016</option>
+                <option value="year" multiple="year">2017</option>
+                <option value="year" multiple="year">2018</option>
               </select>
             <br>
-            <label for="institute">Institucion</label>
+            <label for="institute">Institución</label>
             <input type="text" name="institute" placeholder="Institucion" required>
             <br>
             <label for="place">Lugar</label>
